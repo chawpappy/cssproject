@@ -107,6 +107,7 @@ button{
 .blanks{
    display:flex;
    flex-direction:row;
+   gap:48px;
 }
 .quote{
     padding: 48px 200px;
@@ -114,6 +115,7 @@ button{
     color:#1F2937;
     font-size:36px;
     font-weight:light,
+    font-style:lighter;
 }
 
 #sign{
@@ -136,7 +138,26 @@ button{
 
 .container{
     display:flex;
-    justify-content:flex-start;
+    justify-content:center;
     flex-direction:column;
+    line-height:0px;
+    align-items:flex-start;
     
+}
+
+.pic{
+    width: 100px;
+    height: 100px;
+    border: solid #3882F6;
+    border-radius:4px;
+}
+
+.images{
+    width:100px;
+}
+
+.subtext{
+    font-size:12px;
+    color:#1F2937;
+    text-align:center;
 }
